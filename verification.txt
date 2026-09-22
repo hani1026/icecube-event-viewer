@@ -35,3 +35,9 @@ Dust slab: 2000–2100 m depth, 100 m thickness; tuned attenuation length 25 m.
 Reference source: 100 GeV point cascade, x=45 m, y=-40 m, depth=2050 m, all sensors.
 Expected total charge: clear 289.01577 p.e., dusty 167.19022 p.e. (ratio 0.57848).
 GEO unchanged; HTML IDs and bindings checked.
+
+Publication verification (2026-09-22):
+https://hani1026.github.io/icecube-event-viewer/ returned HTTP 200 without authentication.
+Published HTML matched local index.html byte-for-byte.
+Live desktop browser: page loaded; Detector control worked; WebGL ice, bedrock, dust and event displayed.
+Mobile-device rendering and GPU memory measurements remain unverified.
