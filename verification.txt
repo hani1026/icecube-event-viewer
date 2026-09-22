@@ -1,0 +1,37 @@
+PASS JavaScript parses and detector counts match
+PASS same seed and settings reproduce the complete event
+PASS electron uses physical path, position and flight time
+PASS tau CC below threshold has no interaction or signal; NC remains available
+PASS tau kinematic envelope conserves energy and allows an on-shell recoil
+PASS all tau decay modes use physical displacement and flight time
+PASS finite-track endpoints and direct-cone emission stay within the track
+PASS 640 settings including empty detector masks have finite sorted hits and timelines
+PASS cleanup disposes owned resources once and preserves shared sprite geometry
+PASS no path exaggeration remains and both rebuild sites clean up resources
+PASS dust path integrates partial, crossing, horizontal and reversed rays
+PASS dust reduces expected light according to crossed distance, not sensor identity
+PASS dust switch preserves event truth and does not attenuate dark noise
+PASS dust suppresses a source in the layer across the real sensor array
+{
+  "checks": 14,
+  "settings": 640,
+  "geometrySHA256": "24ad92239bcbe9d7bb610619a936627956fa7803b8069f552da5750be294f4b3",
+  "uiRenderingVerified": false
+}
+{
+  "iceTop_m": 1948,
+  "bedrockTop_m": -852,
+  "iceThickness_m": 2800,
+  "rockSliceShown_m": 300,
+  "width_m": 2200,
+  "sensorsInsideIce": 5854,
+  "nearFarTransition": "passed",
+  "cameraFitDesktopAndPortrait": "passed",
+  "themeRebuilds": "passed",
+  "webglRenderingVerified": false
+}
+
+Dust slab: 2000–2100 m depth, 100 m thickness; tuned attenuation length 25 m.
+Reference source: 100 GeV point cascade, x=45 m, y=-40 m, depth=2050 m, all sensors.
+Expected total charge: clear 289.01577 p.e., dusty 167.19022 p.e. (ratio 0.57848).
+GEO unchanged; HTML IDs and bindings checked.
